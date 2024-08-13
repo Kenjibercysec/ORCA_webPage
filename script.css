@@ -1,7 +1,10 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    background: linear-gradient(47deg, rgba(2,0,36,1) 0%, rgba(51,71,103,1) 44%, rgba(29,99,135,1) 100%); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 header {
@@ -45,7 +48,7 @@ nav a {
 }
 
 .hero {
-    background: linear-gradient(180deg, #27496d 0%, #142850 100%);
+    
     color: white;
     padding: 100px 20px;
     text-align: center;
